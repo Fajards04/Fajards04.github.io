@@ -1,0 +1,225 @@
+ 
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+#dark {
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(1.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+#normal {
+	background-image: linear-gradient(to right, darkcyan , cyan);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+
+}
+
+
+
+.main-nav li{
+	display: inline-block;  
+}
+
+.main-nav a{
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px;
+
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+}
+.main-nav li.active a{
+	border: 1px solid white;
+
+}
+.main-nav li a:hover
+{
+	border:1px solid white;
+}
+.logo img {
+	width: 150px;
+	height: auto; 
+	float: left;
+}
+body{
+	font-family:sans-serif; 
+}
+
+.row {
+	max-width: 1200px;
+	margin:auto;
+}
+
+.hero{
+	position: absolute;
+	width: 1200px;
+	
+
+}
+
+h1 {
+	color: white;
+	text-transform: uppercase;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 275px;
+}
+.button{
+	margin-top: 30px;
+	margin-left: 440px;
+}
+.btn{
+	border: 1px solid white;
+	padding: 10px 30px;
+	color: white;
+	text-decoration: none;
+	margin-right: 5px;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+.btn-one {
+	background-color: darkorange;
+	font-family: "Roboto", sans-serif;
+}
+.btn-two{
+	background-color: ;
+	font-family: "Roboto",sans-serif;
+}
+
+.search {
+	
+	margin-top: 20px;
+	width: 520px;
+}
+.searchb {
+    background-color: cyan;
+    width: 50px;
+}
+
+#top  {
+	width: 1360px;
+	
+}
+#adv {
+	
+	width:600px ;	
+}
+
+}
+.container{
+	width: 1200px;
+	margin: 70px auto 0;
+	flex-direction: row;
+	flex-wrap: wrap;
+	
+
+
+}
+
+.container .box{
+	position:relative;
+	margin: 10px;
+	box-sizing: border-box;
+	display: inline-block;
+}
+.container .box .imgBox{
+	position: relative;
+}
+.container .box .imgBox img{
+	max-width: 100%;
+	transition: transform 2s;
+
+}
+.container .box:hover .imgBox img{
+	transform: scale(1.1);
+}
+#top2 {
+	width: 800px;
+	height: 400px;
+}
+.bot img {
+      width: 400px;
+       margin: 22px;
+      display: inline-block;
+}
+
+
+.footer-main-div{
+	
+	
+	margin: auto;
+	background: #272727;
+	padding: 20px 0px;
+}
+
+.footer-social-icons{
+	
+	margin: auto;
+}
+.footer-social-icons ul{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+.footer-social-icons ul li{
+	display: inline-block;
+}
+.footer-social-icons  li a{
+	color: #fff;
+}
+.footer-social-icons  li a:hover{
+    color: cyan;
+}
+.footer-menu ul{
+	margin: auto;
+	background: #272727;
+	padding: 10px 0px;
+
+}
+
+.footer-bottom{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	background:#32CD32;
+	padding: 10px;
+	font-family: arial;
+	font-size: 14px;
+	text-align: center;
+}
+.footer-bottom p a {
+	color:#fff;
+
+}
+.footer-bottom p a:hover{
+	color:#272727;
+}
+
+.hot {
+	margin: 0px;
+}
+.helper h1 {
+	display:inline-grid; 
+    position: center;
+}
+.helper li a{
+	color: white;
+	font-family: arial;
+	font-size: 30px;
+	line-height: 50px;
+
+}
+.helper li a:hover{
+	color:cyan;
+}
